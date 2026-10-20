@@ -1,0 +1,9 @@
+[[servers]]
+name = "web"
+command = "{venv_bin}/duckduckgo-mcp-server"
+timeout_seconds = 60
+
+[servers.env]
+DDG_SAFE_SEARCH = "MODERATE"
+DDG_REGION = "us-en"
+DDG_REF_URL_THRESHOLD = "0"

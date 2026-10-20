@@ -1,0 +1,30 @@
+{
+  "name": "localchat-ui",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "@assistant-ui/react": "0.15.29",
+    "@assistant-ui/react-markdown": "0.14.23",
+    "lucide-react": "1.58.0"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "vite": "8.3.4",
+    "@vitejs/plugin-react": "6.1.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "vitest": "5.0.5"
+  },
+  "engines": {
+    "node": ">=22.12"
+  },
+  "packageManager": "pnpm@11.25.0"
+}
